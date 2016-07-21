@@ -37,9 +37,9 @@ embedded expressions are of the form ${ expr }
 */
 let fullName: string = 'Bob Bobbington';
 let age: number = 37;
-let sentence: string = `Hello, my name is ${ fullName }.
+let sentence: string = `Hello, my name is ${fullName}.
 
-I'll be ${ age + 1 } years old next month.`
+I'll be ${ age + 1} years old next month.`
 
 /******************************************
 4- Array
@@ -68,7 +68,7 @@ console.log(tuple[5].toString()); // OK, 'string' and 'number' both have 'toStri
 /******************************************
 6- Enum. A helpful addition to the standard set of datatypes from JavaScript
 ******************************************/
-enum Color {Red, Green, Blue};
+enum Color { Red, Green, Blue };
 let c: Color = Color.Green;
 
 /*
@@ -76,7 +76,7 @@ By default, enums begin numbering their members starting at 0. You can change
 this by manually setting the value of one of its members or, even manually set
 all the values in the enum.
 */
-enum ColorNumber{Red = 1, Green = 3, Blue = 4};
+enum ColorNumber { Red = 1, Green = 3, Blue = 4 };
 let cn: Color = Color.Green;
 
 let cnvalue: string = Color[3];
@@ -97,7 +97,7 @@ at all. Declaring variables of type void is not useful because you can only
 assign undefined or null to them.
 ******************************************/
 function warnUser(): void {
-  alert("This is a warning message");
+    alert("This is a warning message");
 }
 
 /******************************************

@@ -3,8 +3,10 @@
     "compilerOptions": {
         "module": "commonjs",
         "newLine": "LF",
-        "noImplicitAny": true,
         "removeComments": true,
-        "preserveConstEnums": true
-    }
+        "sourceMap": false
+    },
+    "exclude": [
+        "node_modules"
+    ]
 }
