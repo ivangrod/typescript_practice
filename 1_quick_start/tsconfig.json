@@ -1,0 +1,10 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "module": "commonjs",
+        "newLine": "LF",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true
+    }
+}
