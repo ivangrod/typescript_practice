@@ -3,6 +3,7 @@
     "compilerOptions": {
         "module": "commonjs",
         "newLine": "LF",
+        "target": "es6",
         "removeComments": true,
         "sourceMap": false
     },
